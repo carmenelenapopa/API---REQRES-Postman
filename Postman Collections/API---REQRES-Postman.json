@@ -7,20 +7,20 @@
 	"item": [
 		{
 			"name": "SINGLE USER",
-			"_postman_id": "e29dbbb4-2b0e-496e-9de0-09cbd5b8cee7",
+			"id": "e29dbbb4-2b0e-496e-9de0-09cbd5b8cee7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{Reqres}}/api/users/2"
+				"url": "https://reqres.in/api/users/2"
 			},
 			"response": []
 		},
 		{
 			"name": "SINGLE USER NOT FOUND",
-			"_postman_id": "8b157554-a2f5-47b0-b26f-77979cdd25f1",
+			"id": "8b157554-a2f5-47b0-b26f-77979cdd25f1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "LIST USERS all",
-			"_postman_id": "fc461c1b-d187-49d3-b96f-1a42811c4c5c",
+			"id": "fc461c1b-d187-49d3-b96f-1a42811c4c5c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -61,7 +61,7 @@
 		},
 		{
 			"name": "LIST USERS page 2",
-			"_postman_id": "ff3e7fec-2e05-4e02-92af-e7c624eb3bf3",
+			"id": "ff3e7fec-2e05-4e02-92af-e7c624eb3bf3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -89,7 +89,7 @@
 		},
 		{
 			"name": "LIST <RESOURCE>",
-			"_postman_id": "88dc06b1-a6d7-4b6b-8747-cbc6a5285e88",
+			"id": "88dc06b1-a6d7-4b6b-8747-cbc6a5285e88",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -102,7 +102,7 @@
 		},
 		{
 			"name": "SINGLE <RESOURCE> Copy",
-			"_postman_id": "c9e23069-3af6-46fa-9e74-ace29e0d1c06",
+			"id": "c9e23069-3af6-46fa-9e74-ace29e0d1c06",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -115,7 +115,7 @@
 		},
 		{
 			"name": "SINGLE <RESOURCE> NOT FOUND",
-			"_postman_id": "a47013e3-6b49-4555-ac2b-64fd9cb56cf1",
+			"id": "a47013e3-6b49-4555-ac2b-64fd9cb56cf1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -128,7 +128,7 @@
 		},
 		{
 			"name": "CREATE",
-			"_postman_id": "4ce71172-e64f-4c87-a721-06185fac5a1e",
+			"id": "4ce71172-e64f-4c87-a721-06185fac5a1e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -150,7 +150,7 @@
 		},
 		{
 			"name": "UPDATE",
-			"_postman_id": "cbdb273e-93a8-42df-82b3-317b80094edd",
+			"id": "cbdb273e-93a8-42df-82b3-317b80094edd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -172,7 +172,7 @@
 		},
 		{
 			"name": "UPDATE",
-			"_postman_id": "32ca4131-91a7-45e7-a54f-2263ef48289c",
+			"id": "32ca4131-91a7-45e7-a54f-2263ef48289c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -194,7 +194,7 @@
 		},
 		{
 			"name": "DELETE",
-			"_postman_id": "d991fe05-799e-41a8-95c0-d633db711f50",
+			"id": "d991fe05-799e-41a8-95c0-d633db711f50",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -216,7 +216,7 @@
 		},
 		{
 			"name": "REGISTER - SUCCESSFUL",
-			"_postman_id": "95d58016-f31c-4669-90dd-d51623e2e33d",
+			"id": "95d58016-f31c-4669-90dd-d51623e2e33d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -238,7 +238,7 @@
 		},
 		{
 			"name": "REGISTER - UNSUCCESSFUL",
-			"_postman_id": "5ef1846b-2533-45c2-b154-027c01eba58b",
+			"id": "5ef1846b-2533-45c2-b154-027c01eba58b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -260,7 +260,7 @@
 		},
 		{
 			"name": "LOGIN - SUCCESSFUL",
-			"_postman_id": "178ddcdd-d801-414f-9f64-ef66f13f33fc",
+			"id": "178ddcdd-d801-414f-9f64-ef66f13f33fc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -282,7 +282,7 @@
 		},
 		{
 			"name": "LOGIN - UNSUCCESSFUL",
-			"_postman_id": "550b36d1-c6d2-4791-8e4a-829a895af8d4",
+			"id": "550b36d1-c6d2-4791-8e4a-829a895af8d4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -304,7 +304,7 @@
 		},
 		{
 			"name": "DELAYED RESPONSE",
-			"_postman_id": "8c9b6662-f0bf-4820-b9b2-619950f18e2e",
+			"id": "8c9b6662-f0bf-4820-b9b2-619950f18e2e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -327,10 +327,9 @@
 	],
 	"variable": [
 		{
-			"id": "fd9ccaac-5290-4c18-986e-247ef65ffad2",
+			"id": "0f3e5576-d356-4f5d-8883-9fad06148c9b",
 			"key": "Reqres",
-			"value": "https://reqres.in",
-			"type": "string"
+			"value": "https://reqres.in"
 		}
 	]
 }
