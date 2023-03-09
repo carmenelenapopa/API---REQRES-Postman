@@ -97,7 +97,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{Reqres}}/api/users?page=2",
+					"raw": "{{Reqres}}/api/users?page=6",
 					"host": [
 						"{{Reqres}}"
 					],
@@ -108,7 +108,7 @@
 					"query": [
 						{
 							"key": "page",
-							"value": "2"
+							"value": "6"
 						}
 					]
 				}
@@ -355,7 +355,7 @@
 	],
 	"variable": [
 		{
-			"id": "79a3ebdd-db85-4622-994a-afb8675b1174",
+			"id": "57857ba9-0c1f-416b-a7d1-280fb3ea8235",
 			"key": "Reqres",
 			"value": "https://reqres.in"
 		}
