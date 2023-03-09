@@ -88,6 +88,34 @@
 			"response": []
 		},
 		{
+			"name": "LIST USERS page 3",
+			"id": "dfe0c367-7b01-496e-91cb-6bb1b6a42474",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{Reqres}}/api/users?page=2",
+					"host": [
+						"{{Reqres}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "LIST USERS page 6",
 			"id": "3af882a5-dd74-402d-bad5-d10f38ad0f42",
 			"protocolProfileBehavior": {
@@ -355,7 +383,7 @@
 	],
 	"variable": [
 		{
-			"id": "57857ba9-0c1f-416b-a7d1-280fb3ea8235",
+			"id": "89a0f33e-16e1-4ef5-8406-09009115909e",
 			"key": "Reqres",
 			"value": "https://reqres.in"
 		}
